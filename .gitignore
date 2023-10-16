@@ -1,0 +1,9 @@
+.env
+instance
+migrations
+logs
+.idea
+__pycache__
+tests.py
+env
+

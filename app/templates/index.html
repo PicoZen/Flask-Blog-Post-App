@@ -1,0 +1,12 @@
+{% extends 'base.html' %}
+<title> Blog App </title>
+
+{% block app_content %}
+
+<body>
+    <h1> Hello, {{current_user.username}} </h1>
+    <p>
+        Visit your blog :  <a href="{{ url_for('blog') }}"> Blog</a>
+    </p>
+</body>
+{% endblock %}
